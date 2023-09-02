@@ -1,8 +1,7 @@
-import functions from "./functions.js";
 //variablesInTypeScript();
 //operators();
-functions(123, "John");
-functions(111, "mary", "mary@xyz.com");
+//functions(123, "John");
+//functions(111, "mary", "mary@xyz.com");
 //addNumbers(1, 2, 3);
 //addNumbers(10, 10, 10, 10, 10);
 //calculate_discount(1000);
@@ -14,4 +13,8 @@ functions(111, "mary", "mary@xyz.com");
 //	let x = "Hello!!";
 //	console.log(x);
 //})();
+//import numbers from "./numbers.js";
+//numbers(0);
+import strings from "./strings.js";
+strings("Hello World");
 //# sourceMappingURL=index.js.map
