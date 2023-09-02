@@ -36,3 +36,52 @@ Or
 8. npm install -g nodemon
 9. npm install -g ts-node
 10. npm install --save-dev ts-node
+
+## This is how everything should look like
+### folder structure
+![Alt text](image.png)
+
+### package.json file
+```json
+{
+  "name": "typescripttutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --watch",
+    "dev": "nodemon ./dist/index.js --watch ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+```
+
+### tsconfig.json
+```json
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"]
+}
+```
+
+## Starting the setup
+1. Open two terminal. in one type `npm run dev` and in the other type `npm run build`;
+   - The `npm run dev` starts nodemon on the index.js and it listens to any changes in that folder file in the "dist" folder whilst `npm run build` listens for any changes in our index.ts file and builds the changes into index.js file. Any changes made will cause nodemon to display the info as such.
