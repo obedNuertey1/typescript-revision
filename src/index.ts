@@ -19,5 +19,11 @@ import functions, { addNumbers, calculate_discount, myFunction, factorial } from
 
 //import numbers from "./numbers.js";
 //numbers(0);
-import strings from "./strings.js";
-strings("Hello World");
+//import strings from "./strings.js";
+//strings("Hello World");
+
+//import arrays from "./arrays.js";
+//arrays();
+
+import tuples from "./tuples.js";
+tuples();
