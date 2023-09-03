@@ -86,6 +86,7 @@ export default (str:string):void=>{
 	console.log(`(0,10) : ${appleStr.substring(0,10)}`);
 	console.log(`(5) : ${appleStr.substring(5)}`);
 
+	
 
 	//String toLocaleLowerCase()
 	console.log(appleStr.toLocaleLowerCase());

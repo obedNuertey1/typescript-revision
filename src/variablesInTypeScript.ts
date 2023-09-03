@@ -32,6 +32,7 @@ export default():void=>{
 		}
 	};
 
+	
 	console.log("Global num: "+global_num);
 	console.log("Numbers.sval: ",Numbers.sval) //static variable can be accessed using className
 	var obj = new Numbers();

@@ -19,6 +19,7 @@ export default (num:number):void => {
 	//	console.log(`Value Accepted..`);
 	//}
 
+	
 
 	////Example: prototype
 	//function Employee(id:number, name:string){

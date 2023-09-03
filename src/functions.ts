@@ -43,7 +43,6 @@ export default (id:number, name:string, mail_id?:string):void => {
 	//disp();
 
 
-
 	//Function Overloading example
 	function disp(s1:string):void;
 	function disp(n1:number, s1:string):void;

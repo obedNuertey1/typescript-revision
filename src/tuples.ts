@@ -26,6 +26,7 @@ export default ():void=>{
 	console.log(`Items after pop ${mySecondTup.length}`);
 
 
+	
 	//Updating Tuples
 	let myThirdTuple = [10, "Hello", "World", "typeScript"]; //create a tuple
 
