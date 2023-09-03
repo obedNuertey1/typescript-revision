@@ -1,0 +1,1 @@
+{"version":3,"file":"Triangle.js","sourceRoot":"","sources":["../../src/namespaces/Triangle.ts"],"names":[],"mappings":"AACA,IAAU,OAAO,CAUhB;AAVD,WAAU,OAAO;IAChB,MAAa,MAAM;QACX,IAAI;YACV,OAAO,CAAC,GAAG,CAAC,iBAAiB,CAAC,CAAC;QAChC,CAAC;QAAA,CAAC;KACF;IAJY,cAAM,SAIlB,CAAA;IAAA,CAAC;IAGF,wBAAwB;AAEzB,CAAC,EAVS,OAAO,KAAP,OAAO,QAUhB;AAAA,CAAC;AACF,eAAe,OAAO,CAAC"}
